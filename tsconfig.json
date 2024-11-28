@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "!src/views/AboutView.vue",
+    "!src/views/HomeView.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/components/HelloWorld.vue",
+    "src/components/TheWelcome.vue",
+    "src/components/WelcomeItem.vue"
+  ]
+}
