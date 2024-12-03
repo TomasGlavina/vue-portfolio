@@ -75,18 +75,23 @@ import { cdCommand } from './commands/cd';
 
     switch (mainCommand) {
       case 'about':
+        clearTerminal();
         router.push('/about');
         break;
       case 'projects':
+        clearTerminal();
         router.push('/projects');
         break;
       case 'skills':
+        clearTerminal();
         router.push('/skills');
         break;
       case 'contact':
+        clearTerminal();
         router.push('/contact');
         break;
       case 'home':
+        clearTerminal();
         router.push('/');
         break;
       case 'clear':
